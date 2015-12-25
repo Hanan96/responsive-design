@@ -1,0 +1,139 @@
+/*************************
+Body Shape
+*************************/
+body {
+	background:#e7e1d7;
+}
+img {
+	max-width: 100%;
+}
+/*************************
+Header Shape
+*************************/
+/****Wood div****/
+.Wood {
+	margin: -8px 0 0 20px;
+}
+h1 {
+	font-size: 52px;
+	font-family: verdana;
+	margin: -86px 0 0 120px;
+	color: #a96235;
+}
+h1:hover {
+	color: #fbb913;
+}
+/****Navigation****/
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 20px 0 40 40px;
+}
+li{
+	background: #000;
+	padding: 14px;
+	text-align: center;
+	border: 1px solid #a96235;
+}
+li:hover {
+	background: rgba(255,255,255,0.6);
+}
+ul li a, a, span {
+	color: #fbb913;
+	font-size: 22px;
+	font-weight: bold;
+	text-decoration: none;
+}
+/*****************************************************************/
+/*************First section*************/
+/****Source-of-Wood****/
+.Source-of-Wood {
+	font-family: Georgia;
+	font-style: italic;
+	font-weight: bold;
+	color: #dba460;
+	margin: 10px 20px 70px 20px;
+}
+h2 {
+	color: #302d26;
+	font-family: arial , sans-serif;
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+.wood-collection {
+	border:3px solid #302d26;
+}
+/****up div****/
+.up {
+	float: right;
+	margin-right: 20px;
+}
+/**************************************************************/
+/*************Second section*************/
+section {
+	position: relative;
+	float: left;
+	display: block;
+}
+/*****Headding******/
+.headding {
+	font-size: 52px;
+	font-weight: normal;
+	font-family: "Lato", Helvetica, arial, sans-serif;
+	color: #a96235;
+	padding: 0 0 20px 0;
+	margin-left: 34px;
+	margin-bottom: -4px;
+}
+/****wood-wood****/
+.wood-wood {
+	float: left;
+	margin: 0 0 0 20px;
+	display: block;
+}
+/****For Every h3****/
+h3 {
+	font-family: arial, sans-serif;
+	font-weight: 100;
+	font-size: 32px;
+	color: #302d26;
+	margin: 10px 0 20px 14px;
+}
+/****For Every wood-photo****/
+.wood-photo {
+	margin: 0 0 15px 0;
+	width: 90%;
+	height: 90%;
+	border:3px solid #9d5833;
+}
+article {
+	margin: 10px 20px 15px 0;
+	color: #251604;
+	font-family: arial, sans-serif;
+}
+/*************************
+Footer Shape
+*************************/
+footer {
+	background: #222;
+    float: left;
+    clear: both;
+    font-size: .9em;
+    padding: 30px 0 40px;
+    width: 100%;
+}
+b {
+	margin: 10px 0 60px 10px;
+}
+span:hover {
+	color: #18d664;
+}
+/****social-icons****/
+.social-icons img {
+	width: 30px;
+	height: 30px;
+}
+
+p2 a{
+	padding: 20px 0 10px 20px;
+}

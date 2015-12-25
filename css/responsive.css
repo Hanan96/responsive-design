@@ -1,0 +1,99 @@
+/*************************
+Responsive Dedign
+*************************/
+@media screen and (min-width: 600px) {
+
+/*************************
+Header Shape
+*************************/
+/****Nav****/
+.Navigation {
+	width: 100%;
+	background: #000;
+	padding: 6px 0 16px 0;
+	border-bottom: 3px solid #fbb913;
+	background-attachment: scroll;
+}
+/****Nav****/
+ul {
+	margin: 20px 0 40 40px;
+	float: right;
+}
+li{
+	background: none;
+	padding: 18px 6px 10px 12px ;
+	border: none;
+	float: left;
+	margin-top: -46px;
+}
+li:hover {
+	background: none;
+}
+ul li a:hover {
+	color: #76a47f;
+}
+
+/****Source-of-Wood****/
+.headding {
+	margin:30px 0 0px 38px;
+}
+h2, h3 {
+    margin: -30px 0 0px 20px;
+    padding: 60px 0 30px 0;
+}
+/************first and second Section**************/
+/****Wood-collection img****/
+.wood-collection, .wood-photo {
+	width: 48%;
+	height: 200px;
+	float: left;
+}
+p, article {
+    float: right;
+    width: 48%;
+    margin: 0 0 20px;
+    line-height: 140%;
+    text-align: left;
+    display: block;
+}
+
+}
+/*************************
+Footer Shape
+*************************/
+b {
+	margin: 10px 10px 20px 20px;
+}
+/****social-icons div****/
+.social-icons {
+	float: right;
+	margin-right: 20px;
+}
+
+/******************************************************************/
+@media screen and (min-width: 990px) {
+
+/*************First section*************/
+h2, h3 {
+	float: right;  
+    width: 48%;
+}
+.wood-collection {
+	margin-top: 38px;
+}
+/*************Second section*************/
+/*****Headding******/
+.headding {
+	float: none;	
+}
+h3 {
+	margin: -62px 0 0 0;
+}
+/****wood-wood****/
+.wood-wood {
+	float: left;
+	margin: 30px 10px 20px 20px;
+	display: block;
+}
+
+}
